@@ -2,7 +2,7 @@
 # Text Render by awk
 # Version 1.0
 # Author : dabioage
-#Usage:  awk -F, -f render.awk template.txt var_list.csv
+# Usage:  awk -F, -f render.awk template.txt var_list.csv
 
 BEGIN { 
 }
