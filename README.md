@@ -1,7 +1,7 @@
 # render
 Text Render by awk
 
-Version 1.0
+Version 1.5
 
 Author : dabioage
 
@@ -16,7 +16,7 @@ no,product,expiration
 ```
 template.txt
 ```text
-This product is $product, the number of this product is $no and expiration date is $expiration.
+This product is ${product}, the number of this product is ${no} and expiration date is ${expiration}.
 ```
 ```bash
 awk -F, -f render.awk template.txt var_list.csv
