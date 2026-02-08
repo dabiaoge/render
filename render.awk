@@ -5,7 +5,7 @@
 # Usage:  awk -F, -f render.awk template.txt var_list.csv
 
 BEGIN {
-    if (ARGC < 3) {
+    if (ARGC < 2) {
         print "Error: Insufficient arguments." > "/dev/stderr"
         exit 1
     }
